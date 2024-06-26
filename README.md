@@ -11,26 +11,23 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This project aims to predict bikesharing demand based on various environmental and seasonal factors.
+- The bikesharing company wants to forecast the number of bikes rented per day to optimize fleet management and customer satisfaction.
+- The dataset used contains historical data on bikesharing rentals, including factors like temperature, weather conditions, and time-related variables.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- The project identified temperature as the most influential factor affecting bikesharing demand, with a positive correlation observed.
+-  Weather conditions, particularly light snow, negatively impact bikesharing demand, highlighting seasonal variations.
+-  Further analysis revealed significant weekday and seasonal trends that affect bikesharing usage patterns.
+-  Incorporating these insights can help the bikesharing company better anticipate demand fluctuations and optimize operational strategies.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Pandas - version 2.1.4
+- NumPy - version 1.26.4
+- Matplotlib - version 3.8.0
+- Scikit-learn - version 1.2.2
+- Statmodel - version 0.14.0
+- seaborn - version 0.13.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
