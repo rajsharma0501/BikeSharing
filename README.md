@@ -20,6 +20,9 @@
 -  Weather conditions, particularly light snow, negatively impact bikesharing demand, highlighting seasonal variations.
 -  Further analysis revealed significant weekday and seasonal trends that affect bikesharing usage patterns.
 -  Incorporating these insights can help the bikesharing company better anticipate demand fluctuations and optimize operational strategies.
+-  The r2-score on train and test set is 0.81, 0.79
+-  The features in the final model are 'const','temp', 'season_spring', 'season_winter', 'mnth_Jul',
+       'weathersit_cloudy', 'weathersit_lightSnow', 'yr_2019'
 
 ## Technologies Used
 - Pandas - version 2.1.4
